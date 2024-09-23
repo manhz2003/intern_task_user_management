@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Mon Sep 15 2014 14:48:55 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="ResponseTransactionList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Total" type="xs:string"></xs:element>
+				<xs:element name="TransactionList" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TransactionCode" type="xs:string"></xs:element>
+							<xs:element name="Status" type="xs:string"></xs:element>
+							<xs:element name="ShipName" type="xs:string"></xs:element>
+							<xs:element name="ShipFlag" type="xs:string"></xs:element>
+							<xs:element name="CusName" type="xs:string"></xs:element>
+							<xs:element name="ShipOwner" type="xs:string"></xs:element>
+							<xs:element name="ShipLOA" type="xs:string"></xs:element>
+							<xs:element name="Berth" type="xs:string"></xs:element>
+							<xs:element name="Extra2" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

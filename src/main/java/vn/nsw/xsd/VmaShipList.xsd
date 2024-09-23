@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="VmaShipList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="VmaShip" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="mtgateway" type="xs:string"></xs:element>
+							<xs:element name="MaritimeCode" type="xs:string"></xs:element>
+							<xs:element name="ShipName" type="xs:string"></xs:element>
+							<xs:element name="ShipPreviousName" type="xs:string"></xs:element>
+							<xs:element name="ShipTypeMT" type="xs:string"></xs:element>
+							<xs:element name="ShipTypeCode" type="xs:string"></xs:element>
+							<xs:element name="ShipBoat" type="xs:string"></xs:element>
+							<xs:element name="HasTugBoat" type="xs:string"></xs:element>
+							<xs:element name="TugBoatName" type="xs:string"></xs:element>
+							<xs:element name="NameOfMaster" type="xs:string"></xs:element>
+							<xs:element name="ChiefOfEngineer" type="xs:string"></xs:element>
+							<xs:element name="IMONumber" type="xs:string"></xs:element>
+							<xs:element name="CallSign" type="xs:string"></xs:element>
+							<xs:element name="FlagStateOfShip" type="xs:string"></xs:element>
+							<xs:element name="VRCode" type="xs:string"></xs:element>
+							<xs:element name="RegistryNumber" type="xs:string"></xs:element>
+							<xs:element name="RegistryDate" type="xs:string"></xs:element>
+							<xs:element name="RegistryPortCode" type="xs:string"></xs:element>
+							<xs:element name="GT" type="xs:string"></xs:element>
+							<xs:element name="NT" type="xs:string"></xs:element>
+							<xs:element name="DWT" type="xs:string"></xs:element>
+							<xs:element name="LOA" type="xs:string"></xs:element>
+							<xs:element name="Breadth" type="xs:string"></xs:element>
+							<xs:element name="ClearanceHeight" type="xs:string"></xs:element>
+							<xs:element name="Power" type="xs:string"></xs:element>
+							<xs:element name="MaxDraft" type="xs:string"></xs:element>
+							<xs:element name="ShownDraftxF" type="xs:string"></xs:element>
+							<xs:element name="ShownDraftxA" type="xs:string"></xs:element>
+							<xs:element name="UnitPower" type="xs:string"></xs:element>
+							<xs:element name="ProductionCountry" type="xs:string"></xs:element>
+							<xs:element name="ProductionYear" type="xs:string"></xs:element>
+							<xs:element name="ShipOwnerCode" type="xs:string"></xs:element>
+							<xs:element name="ShipOperatorCode" type="xs:string"></xs:element>
+							<xs:element name="ShipAgencyCode" type="xs:string"></xs:element>
+							<xs:element name="ExpiredDate" type="xs:string"></xs:element>
+							<xs:element name="Remarks" type="xs:string"></xs:element>
+							<xs:element name="IsDelete" type="xs:string"></xs:element>
+							<xs:element name="ModifiedDate" type="xs:string"></xs:element>
+							<xs:element name="MarkedAsDelete" type="xs:string"></xs:element>
+							<xs:element name="RequestedDate" type="xs:string"></xs:element>
+							<xs:element name="SyncVersion" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

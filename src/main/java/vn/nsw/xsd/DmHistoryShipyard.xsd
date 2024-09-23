@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="DmHistoryShipyardList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DmHistoryShipyard" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="MaritimeCode" type="xs:string"></xs:element>
+							<xs:element name="ShipYardCode" type="xs:string"></xs:element>
+							<xs:element name="TaxCode" type="xs:string"></xs:element>
+							<xs:element name="CompanyName" type="xs:string"></xs:element>
+							<xs:element name="CompanyAddress" type="xs:string"></xs:element>
+							<xs:element name="ContactEmail" type="xs:string"></xs:element>
+							<xs:element name="TelNo" type="xs:string"></xs:element>
+							<xs:element name="FaxNo" type="xs:string"></xs:element>
+							<xs:element name="Remarks" type="xs:string"></xs:element>
+							<xs:element name="CompanyShortName" type="xs:string" />
+							<xs:element name="ProfileMaintainane" type="xs:string" />
+							<xs:element name="ProfileConstruction" type="xs:string" />
+							<xs:element name="ProfileDeconstruction" type="xs:string" />
+							<xs:element name="MarkupMaintainane" type="xs:int"></xs:element>
+							<xs:element name="MarkupConstruction" type="xs:int"></xs:element>
+							<xs:element name="MarkupDeconstruction" type="xs:int"></xs:element>
+							<xs:element name="Status" type="xs:int"></xs:element>
+							<xs:element name="SyncVersion" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

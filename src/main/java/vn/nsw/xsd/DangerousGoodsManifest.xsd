@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="DangerousGoodsManifest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DocumentName" type="xs:string"></xs:element>
+				<xs:element name="DocumentYear" type="xs:string"></xs:element>
+				<xs:element name="UserCreated" type="xs:string"></xs:element>
+				<xs:element name="NameOfShip" type="xs:string"></xs:element>
+				<xs:element name="FlagStateOfShip" type="xs:string"></xs:element>
+				<xs:element name="MasterName" type="xs:string"></xs:element>
+				<xs:element name="IMONumber" type="xs:string"></xs:element>
+				<xs:element name="Callsign" type="xs:string"></xs:element>
+				<xs:element name="VoyageNumber" type="xs:string"></xs:element>
+				<xs:element name="PortOfLoadingCode" type="xs:string"></xs:element>
+				<xs:element name="PortOfDischargeCode" type="xs:string"></xs:element>
+				<xs:element name="ShippingAgent" type="xs:string"></xs:element>
+				<xs:element name="AdditionalRemark" type="xs:string"></xs:element>
+				<xs:element name="SignPlace" type="xs:string"></xs:element>
+				<xs:element name="SignDate" type="xs:string"></xs:element>
+				<xs:element name="MasterSigned" type="xs:string"></xs:element>
+				<xs:element name="ListDangerousGoods">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DangerousGoodsItem" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DangerousGoodItemCode" type="xs:string"></xs:element>
+										<xs:element name="RefNumber" type="xs:string"></xs:element>
+										<xs:element name="MarksContainer" type="xs:string"></xs:element>
+										<xs:element name="NumberContainer" type="xs:string"></xs:element>
+										<xs:element name="NumberOfPackage" type="xs:string"></xs:element>
+										<xs:element name="KindOfPackages" type="xs:string"></xs:element>
+										<xs:element name="ProperShippingName" type="xs:string"></xs:element>
+										<xs:element name="GoodClass" type="xs:string"></xs:element>
+										<xs:element name="UNNumber" type="xs:string"></xs:element>
+										<xs:element name="PackingGroup" type="xs:string"></xs:element>
+										<xs:element name="SubsidiaryRisk" type="xs:string"></xs:element>
+										<xs:element name="FlashPoint" type="xs:string"></xs:element>
+										<xs:element name="MarinePollutant" type="xs:string"></xs:element>
+										<xs:element name="GrossWeight" type="xs:string"></xs:element>
+										<xs:element name="Ems" type="xs:string"></xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

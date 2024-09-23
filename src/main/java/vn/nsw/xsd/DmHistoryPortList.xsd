@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="DmHistoryPortList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DmHistoryPort" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PortCode" type="xs:string"></xs:element>
+							<xs:element name="LoCode" type="xs:string"></xs:element>
+							<xs:element name="PortName" type="xs:string"></xs:element>
+							<xs:element name="FullName" type="xs:string"></xs:element>
+							<xs:element name="FullNameVN" type="xs:string"></xs:element>
+							<xs:element name="PortType" type="xs:string"></xs:element>
+							<xs:element name="PortOrder" type="xs:string"></xs:element>
+							<xs:element name="Address" type="xs:string"></xs:element>
+							<xs:element name="AddressVN" type="xs:string"></xs:element>
+							<xs:element name="StateCode" type="xs:string"></xs:element>
+							<xs:element name="CityCode" type="xs:string"></xs:element>
+							<xs:element name="Status" type="xs:string"></xs:element>
+							<xs:element name="IsDelete" type="xs:string"></xs:element>
+							<xs:element name="MarkedAsDelete" type="xs:string"></xs:element>
+							<xs:element name="ModifiedDate" type="xs:string"></xs:element>
+							<xs:element name="RequestedDate" type="xs:string"></xs:element>
+							<xs:element name="SyncVersion" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

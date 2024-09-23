@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE routes PUBLIC "-//Liferay//DTD Friendly URL Routes 6.1.0//EN"
+"http://www.liferay.com/dtd/liferay-friendly-url-routes_6_1_0.dtd">
+
+<routes>
+	<route>
+		<pattern>/{documentId}</pattern>
+		<generated-parameter name="documentId">{documentId}</generated-parameter>
+		<generated-parameter name="mvcPath">/html/can_bo/view_kehoach_thutuc.jsp</generated-parameter>
+
+    	<ignored-parameter name="p_auth"/>
+		<ignored-parameter name="p_p_id"/>
+
+		<implicit-parameter name="p_p_lifecycle">0</implicit-parameter>
+		<implicit-parameter name="p_p_state">normal</implicit-parameter>
+		<implicit-parameter name="p_p_mode">view</implicit-parameter>	
+		
+	</route>
+</routes>

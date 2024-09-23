@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="DmHistoryTugboatList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DmHistoryTugboat" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="MaritimeCode" type="xs:string"></xs:element>
+							<xs:element name="TugboatCompanyCode" type="xs:string"></xs:element>
+							<xs:element name="TugboatCompanyName" type="xs:string"></xs:element>
+							<xs:element name="ShipCode" type="xs:string"></xs:element>
+							<xs:element name="ShipName" type="xs:string"></xs:element>
+							<xs:element name="Power" type="xs:string"></xs:element>
+							<xs:element name="LOA" type="xs:string"></xs:element>
+							<xs:element name="Breadth" type="xs:string"></xs:element>
+							<xs:element name="ClearanceHeight" type="xs:string"></xs:element>
+							<xs:element name="Displacement" type="xs:string"></xs:element>
+							<xs:element name="UnitPower" type="xs:string"></xs:element>
+							<xs:element name="VndUnitPrice" type="xs:string"></xs:element>
+							<xs:element name="UsdUnitPrice" type="xs:string"></xs:element>
+							<xs:element name="Remarks" type="xs:string"></xs:element>
+							<xs:element name="GT" type="xs:int" />
+							<xs:element name="NT" type="xs:int" />
+							<xs:element name="DWT" type="xs:int" />
+							<xs:element name="UnitGRT" type="xs:string" />
+							<xs:element name="UnitNT" type="xs:string" />
+							<xs:element name="UnitDWT" type="xs:string" />
+							<xs:element name="TugboatShortName" type="xs:string" />
+							<xs:element name="TugboatExpiredDate" type="xs:string" />
+							<xs:element name="Status" type="xs:int"></xs:element>
+							<xs:element name="SyncVersion" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

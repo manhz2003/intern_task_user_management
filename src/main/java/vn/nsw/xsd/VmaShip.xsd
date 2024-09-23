@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="" elementFormDefault="qualified">
+  <xsd:element name="VmaShip">
+    <xsd:complexType mixed="true">
+      <xsd:sequence>
+        <xsd:element name="mtgateway" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="MaritimeCode" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ShipName" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ShipPreviousName" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ShipTypeMT" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ShipTypeCode" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ShipBoat" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="HasTugBoat" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="TugBoatName" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="NameOfMaster" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ChiefOfEngineer" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="IMONumber" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="CallSign" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="FlagStateOfShip" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="VRCode" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="RegistryNumber" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="RegistryDate" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="RegistryPortCode" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="GT" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="NT" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="DWT" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="LOA" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="Breadth" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ClearanceHeight" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="Power" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="MaxDraft" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ShownDraftxF" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ShownDraftxA" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="UnitPower" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ProductionCountry" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ProductionYear" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ShipOwnerCode" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ShipOperatorCode" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ShipAgencyCode" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ExpiredDate" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="Remarks" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="IsDelete" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="ModifiedDate" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="MarkedAsDelete" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="RequestedDate" minOccurs="0" type="xsd:string"/>
+        <xsd:element name="SyncVersion" minOccurs="0" type="xsd:string"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

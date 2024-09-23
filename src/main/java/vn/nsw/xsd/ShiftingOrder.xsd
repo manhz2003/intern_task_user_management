@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="ShiftingOrder">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="NumberShiftingOrder" type="xs:string"></xs:element>
+				<xs:element name="DocumentName" type="xs:string"></xs:element>
+				<xs:element name="DocumentYear" type="xs:string"></xs:element>
+				<xs:element name="PortofAuthority" type="xs:string"></xs:element>
+
+				<xs:element name="NameOfShip" type="xs:string"></xs:element>
+				<xs:element name="ShownDraftxF" type="xs:double"></xs:element>
+				<xs:element name="UnitShownDraftxF" type="xs:string"></xs:element>
+				<xs:element name="ShownDraftxA" type="xs:double"></xs:element>
+				<xs:element name="UnitShownDraftxA" type="xs:string"></xs:element>
+				<xs:element name="LOA" type="xs:double"></xs:element>
+				<xs:element name="LOAUNIT" type="xs:string"></xs:element>
+				<xs:element name="DWT" type="xs:double"></xs:element>
+				<xs:element name="DWTUNIT" type="xs:string"></xs:element>
+				<xs:element name="TugBoat" type="xs:string"></xs:element>
+				<xs:element name="Chanel" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ChanelCode" type="xs:string"></xs:element>
+							<xs:element name="ChanelName" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="From" type="xs:string"></xs:element>
+				<xs:element name="To" type="xs:string"></xs:element>
+				<xs:element name="FlagStateOfShip" type="xs:string"></xs:element>
+				<xs:element name="AnchoringPortCode" type="xs:string"></xs:element>
+				<xs:element name="PortHarbourCode" type="xs:string"></xs:element>
+				<xs:element name="AnchoringPortWharfCode" type="xs:string"></xs:element>
+				<xs:element name="ShiftingDate" type="xs:string"></xs:element>
+				<xs:element name="ReasonToShift" type="xs:string"></xs:element>
+				<xs:element name="IssueDate" type="xs:string"></xs:element>
+				<xs:element name="DirectorOfMaritimeAdministration" type="xs:string"></xs:element>
+				<xs:element name="CertificateNo" type="xs:string"></xs:element>
+				<xs:element name="Representative" type="xs:string"></xs:element>
+
+				<xs:element name="AttachedFile">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AttachedTypeCode" type="xs:string"></xs:element>
+							<xs:element name="AttachedTypeName" type="xs:string"></xs:element>
+							<xs:element name="AttachedDocName" type="xs:string"></xs:element>
+							<xs:element name="AttachedNote" type="xs:string"></xs:element>
+							<xs:element name="FullFileName" type="xs:string"></xs:element>
+							<xs:element name="SHA1FileContent" type="xs:string"></xs:element>
+							<xs:element name="Base64FileContent" type="xs:string"></xs:element>
+							<xs:element name="FileURL" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="TaxCodeOfShipownersAgents" type="xs:string"></xs:element>
+				<xs:element name="NameOfShipownersAgents" type="xs:string"></xs:element>
+				<xs:element name="ShipAgencyAddress" type="xs:string"></xs:element>
+				<xs:element name="ShipAgencyPhone" type="xs:string"></xs:element>
+				<xs:element name="ShipAgencyFax" type="xs:string"></xs:element>
+				<xs:element name="ShipAgencyEmail" type="xs:string"></xs:element>
+				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

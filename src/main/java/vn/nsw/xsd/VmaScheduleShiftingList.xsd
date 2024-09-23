@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="VmaScheduleShiftingList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="VmaScheduleShifting" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ItineraryNo" type="xs:string"></xs:element>
+							<xs:element name="PortofAuthority" type="xs:string"></xs:element>
+							<xs:element name="NameOfShip" type="xs:string"></xs:element>
+							<xs:element name="FlagStateOfShip" type="xs:string"></xs:element>
+							<xs:element name="AnchoringPortHarbourCode" type="xs:string"></xs:element>
+							<xs:element name="AnchoringPortWharfCode" type="xs:string"></xs:element>
+							<xs:element name="ShiftingPortHarbourCode" type="xs:string"></xs:element>
+							<xs:element name="ShiftingPortWharfCode" type="xs:string"></xs:element>
+							<xs:element name="ShiftingDate" type="xs:string"></xs:element>
+							<xs:element name="PurposeCode" type="xs:string"></xs:element>
+							<xs:element name="ReasonToShift" type="xs:string"></xs:element>
+							<xs:element name="IssueDate" type="xs:string"></xs:element>
+							<xs:element name="DirectorOfMaritime" type="xs:string"></xs:element>
+							<xs:element name="CertificateNo" type="xs:string"></xs:element>
+							<xs:element name="RequestState" type="xs:string"></xs:element>
+							<xs:element name="VersionNo" type="xs:string"></xs:element>
+							<xs:element name="IsApproval" type="xs:string"></xs:element>
+							<xs:element name="ApprovalDate" type="xs:string"></xs:element>
+							<xs:element name="ApprovalName" type="xs:string"></xs:element>
+							<xs:element name="Remarks" type="xs:string"></xs:element>
+							<xs:element name="IsCancel" type="xs:string"></xs:element>
+							<xs:element name="CancelDate" type="xs:string"></xs:element>
+							<xs:element name="CancelName" type="xs:string"></xs:element>
+							<xs:element name="CancelNote" type="xs:string"></xs:element>
+							<xs:element name="Representative" type="xs:string"></xs:element>
+							<xs:element name="DigitalAttachedFile" type="xs:string"></xs:element>
+							<xs:element name="SignName" type="xs:string"></xs:element>
+							<xs:element name="SignTitle" type="xs:string"></xs:element>
+							<xs:element name="SignDate" type="xs:string"></xs:element>
+							<xs:element name="SignPlace" type="xs:string"></xs:element>
+							<xs:element name="AttachedFile" type="xs:string"></xs:element>
+							<xs:element name="StampStatus" type="xs:string"></xs:element>
+							<xs:element name="ShownDraftxF" type="xs:string"></xs:element>
+							<xs:element name="UnitShownDraftxF" type="xs:string"></xs:element>
+							<xs:element name="ShownDraftxA" type="xs:string"></xs:element>
+							<xs:element name="UnitShownDraftxA" type="xs:string"></xs:element>
+							<xs:element name="LOA" type="xs:string"></xs:element>
+							<xs:element name="LOAUNIT" type="xs:string"></xs:element>
+							<xs:element name="DWT" type="xs:string"></xs:element>
+							<xs:element name="DWTUNIT" type="xs:string"></xs:element>
+							<xs:element name="TugBoat" type="xs:string"></xs:element>
+							<xs:element name="From_" type="xs:string"></xs:element>
+							<xs:element name="To_" type="xs:string"></xs:element>
+							<xs:element name="TaxCodeOfShipownersAgents" type="xs:string"></xs:element>
+							<xs:element name="NameOfShipownersAgents" type="xs:string"></xs:element>
+							<xs:element name="ShipAgencyAddress" type="xs:string"></xs:element>
+							<xs:element name="ShipAgencyPhone" type="xs:string"></xs:element>
+							<xs:element name="ShipAgencyFax" type="xs:string"></xs:element>
+							<xs:element name="ShipAgencyEmail" type="xs:string"></xs:element>
+							<xs:element name="ChanelCodeList" type="xs:string"></xs:element>
+							<xs:element name="ChanelName" type="xs:string"></xs:element>
+							<xs:element name="ModifiedDate" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	
+	<xs:element name="CommandData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="CmdType" type="xs:string"></xs:element>
+				<xs:element name="CommandObject">																		
+					<xs:complexType>
+						<xs:sequence>
+						
+						<xs:element name="ArrayOfInvoiceDataWS" >
+							<xs:complexType>
+								<xs:sequence>
+			<xs:element name="InvoiceDataWS" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="PartnerInvoiceID" type="xs:string"></xs:element>
+									<xs:element name="PartnerInvoiceStringID" type="xs:string"></xs:element>
+									<xs:element name="Invoice" >
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="InvoiceTypeID" type="xs:string"></xs:element>
+												<xs:element name="BillCode" type="xs:string"></xs:element>
+												<xs:element name="InvoiceDate" type="xs:string"></xs:element>
+												<xs:element name="InvoiceForm" type="xs:string"></xs:element>
+												<xs:element name="InvoiceSerial" type="xs:string"></xs:element>
+												<xs:element name="InvoiceNo" type="xs:string"></xs:element>
+												
+												<xs:element name="BuyerName" type="xs:string"></xs:element>
+												<xs:element name="BuyerTaxCode" type="xs:string"></xs:element>
+												<xs:element name="BuyerUnitName" type="xs:string"></xs:element>
+												<xs:element name="BuyerAddress" type="xs:string"></xs:element>
+												<xs:element name="BuyerBankAccount" type="xs:string"></xs:element>
+																			
+												<xs:element name="ReceiveTypeID" type="xs:string"></xs:element>
+												<xs:element name="ReceiverEmail" type="xs:string"></xs:element>
+												<xs:element name="ReceiverMobile" type="xs:string"></xs:element>
+												<xs:element name="ReceiverAddress" type="xs:string"></xs:element>
+												<xs:element name="ReceiverName" type="xs:string"></xs:element>
+																			
+												<xs:element name="PayMethodID" type="xs:string"></xs:element>
+												<!-- Phương thức thanh toán -->
+												<xs:element name="CurrencyID" type="xs:string"></xs:element>
+												<!-- Đơn vị tiền tệ -->
+												<xs:element name="ExchangeRate" type="xs:string"></xs:element>
+												<!-- Tỷ giá quy đổi -->	
+												<xs:element name="Note" type="xs:string"></xs:element>
+												
+												<xs:element name="UserDefine" >
+													<xs:complexType>
+														<xs:sequence>
+															<xs:element name="NationalOfShip" type="xs:string"></xs:element>
+															<!-- Quốc tịch -->
+															<xs:element name="NameOfShip" type="xs:string"></xs:element>
+															<!-- Tên tàu -->
+															<xs:element name="Callsign" type="xs:string"></xs:element>
+															<!-- Hô hiệu -->
+															<xs:element name="Agent" type="xs:string"></xs:element>
+															<!-- Đại lý -->
+															<xs:element name="Owner" type="xs:string"></xs:element>
+															<!-- Chủ tàu hoặc chủ hàng -->
+															<xs:element name="GRT" type="xs:string"></xs:element>
+															<!-- GROSS of Tonnage -->
+															<xs:element name="DWT" type="xs:string"></xs:element>
+															<!-- DWT -->
+															<xs:element name="ArrivalPort" type="xs:string"></xs:element>
+															<!-- Cảng đến -->
+															<xs:element name="LastPort" type="xs:string"></xs:element>
+															<!-- Cảng rời -->
+															<xs:element name="NextPort" type="xs:string"></xs:element>
+															<!-- Cảng đến tiếp theo -->
+															<xs:element name="ArrivalDate" type="xs:string"></xs:element>
+															<!-- Ngày đến -->
+															<xs:element name="DepartureDate" type="xs:string"></xs:element>
+															<!-- Ngày rời -->
+															<xs:element name="Cargo" type="xs:string"></xs:element>
+															<!-- Hàng hóa xếp, dỡ -->
+															<xs:element name="IsShowInwordsEN" type="xs:string"></xs:element>										
+															
+															<xs:element name="VNDInwords" type="xs:string"></xs:element>
+															<!-- Số tiền vnd bằng chữ -->
+															<xs:element name="USDInwords" type="xs:string"></xs:element>
+															<!-- Số tiền usd bằng chữ -->
+															<xs:element name="VNDSumPayment" type="xs:string"></xs:element>
+															<!-- Tổng tiền vnd -->
+															<xs:element name="USDSumPayment" type="xs:string"></xs:element>	
+															<!-- Tổng tiền usd -->																								
+														</xs:sequence>
+													</xs:complexType>
+												</xs:element>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+									
+									<xs:element name="ListInvoiceAttachFileWS">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="InvoiceAttachFileWS" maxOccurs="unbounded">																		
+													<xs:complexType>
+														<xs:sequence>	
+														<xs:element name="FileContent" type="xs:string"></xs:element>
+														<xs:element name="FileExtension" type="xs:string"></xs:element>
+														<xs:element name="FileName" type="xs:string"></xs:element>
+														
+														</xs:sequence>
+													</xs:complexType>	
+												</xs:element>													
+											</xs:sequence>
+										</xs:complexType>	
+									</xs:element>
+														
+									<xs:element name="ListInvoiceDetailsWS">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="InvoiceDetailsWS" maxOccurs="unbounded">																		
+												<xs:complexType>
+													<xs:sequence>		
+														<xs:element name="ItemCode" type="xs:string"></xs:element>
+														<!-- Các khoản phí -->
+														<xs:element name="ItemName" type="xs:string"></xs:element>
+														<!-- Các khoản phí -->
+														<xs:element name="UnitName" type="xs:string"></xs:element>
+														
+														<xs:element name="Qty" type="xs:string"></xs:element>
+														
+														<xs:element name="Price" type="xs:string"></xs:element>
+														
+														<xs:element name="Amount" type="xs:string"></xs:element>
+														
+														<xs:element name="TaxRateID" type="xs:string"></xs:element>
+														<xs:element name="TaxRate" type="xs:string"></xs:element>
+														<xs:element name="TaxAmount" type="xs:string"></xs:element>
+														<xs:element name="IsDiscount" type="xs:string"></xs:element>
+														
+														<xs:element name="UserDefineDetails" >
+															<xs:complexType>
+																<xs:sequence>
+																	<xs:element name="Amount" type="xs:string"></xs:element>
+																	
+																	<xs:element name="Remarks" type="xs:string"></xs:element>
+																	
+																	<xs:element name="FromDate" type="xs:string"></xs:element>
+																	
+																	<xs:element name="ToDate" type="xs:string"></xs:element>
+																																
+																</xs:sequence>
+															</xs:complexType>
+														</xs:element>
+													</xs:sequence>
+												</xs:complexType>	
+												</xs:element>													
+											</xs:sequence>
+										</xs:complexType>	
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>		
+						</xs:element>						
+						
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						</xs:sequence>
+					</xs:complexType>	
+				</xs:element>													
+			</xs:sequence>
+		</xs:complexType>	
+	</xs:element>
+	
+	
+				
+
+</xs:schema>

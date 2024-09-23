@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="ReferenceGoodsList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ReferenceGoods" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ReferenceGoodsCode" type="xs:string"></xs:element>
+							<xs:element name="ReferenceGoodsName" type="xs:string"></xs:element>
+							<xs:element name="GoodsTypeCode" type="xs:string"></xs:element>
+							<xs:element name="GoodsTypeName" type="xs:string"></xs:element>
+							<xs:element name="UnitTypeName" type="xs:string"></xs:element>
+							<xs:element name="UnitTypeCode" type="xs:string"></xs:element>
+							<xs:element name="Status" type="xs:string"></xs:element>							
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

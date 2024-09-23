@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="HealthQuanrantineDeclare">
+		<xs:complexType>
+			<xs:sequence>
+
+				<xs:element name="DeclarationOfHealth" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DocumentName" type="xs:string"></xs:element>
+							<xs:element name="DocumentYear" type="xs:string"></xs:element>
+							<xs:element name="UserCreated" type="xs:string"></xs:element>
+							<xs:element name="SubmittedPortCode" type="xs:string"></xs:element>
+							<xs:element name="DateSubmitted" type="xs:string"></xs:element>
+							<xs:element name="NameOfShip" type="xs:string"></xs:element>
+							<xs:element name="Registration" type="xs:string"></xs:element>
+							<xs:element name="IMONumber" type="xs:string"></xs:element>
+							<xs:element name="ArrivingFrom" type="xs:string"></xs:element>
+							<xs:element name="SailingTo" type="xs:string"></xs:element>
+							<xs:element name="Nationality" type="xs:string"></xs:element>
+							<xs:element name="MasterName" type="xs:string"></xs:element>
+							<xs:element name="GrossTonnage" type="xs:string"></xs:element>
+							<xs:element name="GrossTonnageUnit" type="xs:string"></xs:element>
+							<xs:element name="Tonnage" type="xs:string"></xs:element>
+							<xs:element name="TonnageUnit" type="xs:string"></xs:element>
+							<xs:element name="CertificateCarried" type="xs:string"></xs:element>
+							<xs:element name="IssuedAt" type="xs:string"></xs:element>
+							<xs:element name="IssueDate" type="xs:string"></xs:element>
+							<xs:element name="ReInspectionRequired" type="xs:string"></xs:element>
+							<xs:element name="IsShipVisitedWHO" type="xs:string"></xs:element>
+							<xs:element name="VisitedWHOPortCode" type="xs:string"></xs:element>
+							<xs:element name="DateOfVisitedWHO" type="xs:string"></xs:element>
+							<xs:element name="ListPortName" type="xs:string"></xs:element>
+							<xs:element name="DoctorName" type="xs:string"></xs:element>
+							<xs:element name="DoctorSignDate" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="HealthCrewPassengerList">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="HealthCrewPassenger" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="HealthCrewPassengerCode" type="xs:string"></xs:element>
+										<xs:element name="PassengerOrCrewCode" type="xs:string"></xs:element>
+										<xs:element name="ClassOrRating" type="xs:string"></xs:element>
+										<xs:element name="StateVisitedCode" type="xs:string"></xs:element>
+										<xs:element name="PortVisitedCode" type="xs:string"></xs:element>
+										<xs:element name="FromDate" type="xs:string"></xs:element>
+										<xs:element name="ToDate" type="xs:string"></xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="HealthQuestion" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="HealthQuestionCode" type="xs:string"></xs:element>
+							<xs:element name="PersonDied" type="xs:string"></xs:element>
+							<xs:element name="PersonDiedNo" type="xs:string"></xs:element>
+							<xs:element name="PersonDiedReport" type="xs:string"></xs:element>
+							<xs:element name="IsInfectious" type="xs:string"></xs:element>
+							<xs:element name="InfectiousReport" type="xs:string"></xs:element>
+							<xs:element name="IllPassengersGreaterNomal" type="xs:string"></xs:element>
+							<xs:element name="IllPassengersNo" type="xs:string"></xs:element>
+							<xs:element name="IllPersonsOnBoard" type="xs:string"></xs:element>
+							<xs:element name="IllPersonsReport" type="xs:string"></xs:element>
+							<xs:element name="MedicalPractitionerConsulted" type="xs:string"></xs:element>
+							<xs:element name="MedicalTreatmentOrAdvice " type="xs:string"></xs:element>
+							<xs:element name="InfectionOrSpreadOfDisease" type="xs:string"></xs:element>
+							<xs:element name="InfectionsReport" type="xs:string"></xs:element>
+							<xs:element name="IsSanitary" type="xs:string"></xs:element>
+							<xs:element name="SanitaryDes" type="xs:string"></xs:element>
+							<xs:element name="IsStowaways" type="xs:string"></xs:element>
+							<xs:element name="JoinShip" type="xs:string"></xs:element>
+							<xs:element name="IsAnimal" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="AttachmentDeclarationHealth">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Attachment" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="AttachmentCode" type="xs:string"></xs:element>
+										<xs:element name="PassengerOrCrewCode" type="xs:string"></xs:element>
+										<xs:element name="Name" type="xs:string"></xs:element>
+										<xs:element name="Age" type="xs:string"></xs:element>
+										<xs:element name="Sex" type="xs:string"></xs:element>
+										<xs:element name="Nationality" type="xs:string"></xs:element>
+										<xs:element name="PortJoinVesselCode" type="xs:string"></xs:element>
+										<xs:element name="DateJoinVessel" type="xs:string"></xs:element>
+										<xs:element name="ClassOrRating" type="xs:string"></xs:element>
+										<xs:element name="NatureOfIllness" type="xs:string"></xs:element>
+										<xs:element name="DateOfOnsetOfSymptom" type="xs:string"></xs:element>
+										<xs:element name="ReportedMedicalOfficer" type="xs:string"></xs:element>
+										<xs:element name="DisposalOfCase" type="xs:string"></xs:element>
+										<xs:element name="MedicinesOrOther" type="xs:string"></xs:element>
+										<xs:element name="Comments" type="xs:string"></xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="SignPlace" type="xs:string"></xs:element>
+				<xs:element name="SignDate" type="xs:string"></xs:element>
+				<xs:element name="MasterSigned" type="xs:string"></xs:element>
+
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

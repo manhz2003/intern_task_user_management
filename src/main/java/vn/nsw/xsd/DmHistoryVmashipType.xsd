@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="DmHistoryVmashipTypeList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DmHistoryVmashipType" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ShipTypeCode" type="xs:string"></xs:element>
+							<xs:element name="ShipTypeName" type="xs:string"></xs:element>
+							<xs:element name="ApplyShip" type="xs:string"></xs:element>
+							<xs:element name="ApplyBoat" type="xs:string"></xs:element>
+							<xs:element name="ShipTypeRef" type="xs:string"></xs:element>
+							<xs:element name="Remarks" type="xs:string"></xs:element>
+							<xs:element name="Status" type="xs:int"></xs:element>
+							<xs:element name="SyncVersion" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

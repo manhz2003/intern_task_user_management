@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="DmHistoryPilotList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DmHistoryPilot" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="MaritimeCode" type="xs:string"></xs:element>
+							<xs:element name="PilotCompanyCode" type="xs:string"></xs:element>
+							<xs:element name="PilotCompanyName" type="xs:string"></xs:element>
+							<xs:element name="PilotCode" type="xs:string"></xs:element>
+							<xs:element name="PilotName" type="xs:string"></xs:element>
+							<xs:element name="PilotBOD" type="xs:string"></xs:element>
+							<xs:element name="PilotNo" type="xs:string"></xs:element>
+							<xs:element name="PilotCertificateNo" type="xs:string"></xs:element>
+							<xs:element name="PilotCertificateDate" type="xs:string"></xs:element>
+							<xs:element name="PilotCategoryCode" type="xs:string"></xs:element>
+							<xs:element name="Remarks" type="xs:string"></xs:element>
+							<xs:element name="PilotShortName" type="xs:string" />
+							<xs:element name="PilotExpiredDate" type="xs:string" />
+							<xs:element name="Status" type="xs:int"></xs:element>
+							<xs:element name="SyncVersion" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

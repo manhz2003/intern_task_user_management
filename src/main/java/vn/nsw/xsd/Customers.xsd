@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="Customers">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Customer" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Name" type="xs:string"></xs:element>
+							<xs:element name="Code" type="xs:string"></xs:element>
+							<xs:element name="TaxCode" type="xs:string"></xs:element>
+							<xs:element name="Address" type="xs:string"></xs:element>
+							<xs:element name="BankAccountName" type="xs:string"></xs:element>
+							<xs:element name="BankName" type="xs:string"></xs:element>
+							<xs:element name="BankNumber" type="xs:string"></xs:element>
+							<xs:element name="Email" type="xs:string"></xs:element>
+							<xs:element name="Fax" type="xs:string"></xs:element>
+							<xs:element name="Phone" type="xs:string"></xs:element>
+							<xs:element name="ContactPerson" type="xs:string"></xs:element>
+							<xs:element name="RepresentPerson" type="xs:string"></xs:element>
+							<xs:element name="CusType" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>		
+	</xs:element>
+</xs:schema>

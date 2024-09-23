@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="VmaItineraryList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="VmaItinerary" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="mtgateway" type="xs:string"></xs:element>
+							<xs:element name="MaritimeCode" type="xs:string"></xs:element>
+							<xs:element name="ItineraryNo" type="xs:string"></xs:element>
+							<xs:element name="NameOfShip" type="xs:string"></xs:element>
+							<xs:element name="FlagStateOfShip" type="xs:string"></xs:element>
+							<xs:element name="IMONumber" type="xs:string"></xs:element>
+							<xs:element name="CallSign" type="xs:string"></xs:element>
+							<xs:element name="VRCode" type="xs:string"></xs:element>
+							<xs:element name="RegistryNumber" type="xs:string"></xs:element>
+							<xs:element name="ShipPosition" type="xs:string"></xs:element>
+							<xs:element name="ShipTypeCode" type="xs:string"></xs:element>
+							<xs:element name="VmaShipTypeCode" type="xs:string"></xs:element>
+							<xs:element name="ShipCaptain" type="xs:string"></xs:element>
+							<xs:element name="PortofAuthority" type="xs:string"></xs:element>
+							<xs:element name="RepresentativeofAuthority" type="xs:string"></xs:element>
+							<xs:element name="MarkedAsArrival" type="xs:string"></xs:element>
+							<xs:element name="MarkedAsDeparture" type="xs:string"></xs:element>
+							<xs:element name="MarkedAsTransmit" type="xs:string"></xs:element>
+							<xs:element name="MarkedAsVoyage" type="xs:string"></xs:element>
+							<xs:element name="DocumentNameIN" type="xs:string"></xs:element>
+							<xs:element name="DocumentYearIN" type="xs:string"></xs:element>
+							<xs:element name="DocumentNameOUT" type="xs:string"></xs:element>
+							<xs:element name="DocumentYearOUT" type="xs:string"></xs:element>
+							<xs:element name="DocumentNameTRA" type="xs:string"></xs:element>
+							<xs:element name="DocumentYearTRA" type="xs:string"></xs:element>
+							<xs:element name="DocumentNameVOY" type="xs:string"></xs:element>
+							<xs:element name="DocumentYearVOY" type="xs:string"></xs:element>
+							<xs:element name="VoyageNumber" type="xs:string"></xs:element>
+							<xs:element name="ArrivalPortCode" type="xs:string"></xs:element>
+							<xs:element name="LastPortCode" type="xs:string"></xs:element>
+							<xs:element name="NextPortCode" type="xs:string"></xs:element>
+							<xs:element name="DischargedPorts" type="xs:string"></xs:element>
+							<xs:element name="CargoDescription" type="xs:string"></xs:element>
+							<xs:element name="TugboatCondition1" type="xs:string"></xs:element>
+							<xs:element name="TugboatCondition2" type="xs:string"></xs:element>
+							<xs:element name="TimeOfArrival" type="xs:string"></xs:element>
+							<xs:element name="TimeOfDeparture" type="xs:string"></xs:element>
+							<xs:element name="ShipOwnerCode" type="xs:string"></xs:element>
+							<xs:element name="ShipOwnerName" type="xs:string"></xs:element>
+							<xs:element name="ShipOperatorCode" type="xs:string"></xs:element>
+							<xs:element name="ShipOperatorName" type="xs:string"></xs:element>
+							<xs:element name="ArrivalShipAgencyCode" type="xs:string"></xs:element>
+							<xs:element name="ArrivalShipAgency" type="xs:string"></xs:element>
+							<xs:element name="DepartureShipAgencyCode" type="xs:string"></xs:element>
+							<xs:element name="DepartureShipAgency" type="xs:string"></xs:element>
+							<xs:element name="ModifiedDate" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

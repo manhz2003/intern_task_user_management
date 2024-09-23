@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Mon Sep 15 2014 14:48:55 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="PTTNDGeneralDeclaration">
+		<xs:complexType>
+			<xs:sequence>
+				<!-- Lvl1 elements-->
+				<xs:element name="DocumentName" type="xs:string"></xs:element>
+				<xs:element name="DocumentYear" type="xs:string"></xs:element>
+				<xs:element name="UserCreated" type="xs:string"></xs:element>
+				<xs:element name="isArrival" type="xs:string"></xs:element>
+				<xs:element name="NameOfShip" type="xs:string"></xs:element>
+				<xs:element name="ShipTypeCode" type="xs:string"></xs:element>
+				<!-- <xs:element name="IMONumber" type="xs:string"></xs:element> -->
+				<xs:element name="CallSign" type="xs:string"></xs:element>
+				<xs:element name="PortOfArrivalCode" type="xs:string"></xs:element>
+				<xs:element name="DateOfArrival" type="xs:string"></xs:element>	
+				<xs:element name="PortHarbourCode" type="xs:string"></xs:element>	
+				<xs:element name="PortRegionCode" type="xs:string"></xs:element>	
+				<xs:element name="PortWharfCode" type="xs:string"></xs:element>
+				<!-- <xs:element name="FlagStateOfShip" type="xs:string"></xs:element> -->	
+				<xs:element name="NameOfMaster" type="xs:string"></xs:element>	
+				<xs:element name="LastPortOfCallCode" type="xs:string"></xs:element>
+				<!-- <xs:element name="CertificateOfRegistryNumber" type="xs:string"></xs:element>
+				<xs:element name="CertificateOfRegistryDate" type="xs:string"></xs:element>
+				<xs:element name="CertificateOfRegistryPortName" type="xs:string"></xs:element> -->		
+				<xs:element name="TaxCodeOfShipownersAgents" type="xs:string"></xs:element>	
+				<xs:element name="NameOfShipownersAgents" type="xs:string"></xs:element>	
+				<xs:element name="ShipAgencyAddress" type="xs:string"></xs:element>	
+				<xs:element name="ShipAgencyPhone" type="xs:string"></xs:element>	
+				<xs:element name="ShipAgencyFax" type="xs:string"></xs:element>	
+				<xs:element name="ShipAgencyEmail" type="xs:string"></xs:element>
+				<xs:element name="GrossTonnage" type="xs:string"></xs:element>
+				<xs:element name="GrossTonnageUnit" type="xs:string"></xs:element>
+				
+				<xs:element name="NetTonnage" type="xs:string"></xs:element>
+				
+				<xs:element name="CargoOnBoard" type="xs:string"></xs:element>
+				<xs:element name="Cargo" type="xs:string"></xs:element>
+				<xs:element name="VolumeCargo" type="xs:string"></xs:element>
+				<xs:element name="CargoUnit" type="xs:string"></xs:element>
+				<!-- -->
+				<xs:element name="NetTonnageUnit" type="xs:string"></xs:element>
+				<xs:element name="PositionOfShipInPort" type="xs:string"></xs:element> 
+				<xs:element name="BriefParticularsOfVoyage" type="xs:string"></xs:element>	
+				<xs:element name="BriefDescriptionOfTheCargo" type="xs:string"></xs:element>
+				<xs:element name="Remarks" type="xs:string"></xs:element>
+				
+				<!-- <xs:element name="NumberOfCrew" type="xs:string"></xs:element>
+				<xs:element name="NumberOfPassengers" type="xs:string"></xs:element>
+				<xs:element name="ShipRequirementsInTermsOfWaste" type="xs:string"></xs:element> -->	
+				
+				<!-- <xs:element name="NumberCargoDeclaration" type="xs:string"></xs:element>
+				<xs:element name="NumberShipStoreDeclaration" type="xs:string"></xs:element>
+				<xs:element name="NumberCrewList" type="xs:string"></xs:element>
+				<xs:element name="NumberPassengerList" type="xs:string"></xs:element>
+				<xs:element name="NumberCrewEffectsDeclaration" type="xs:string"></xs:element>
+				<xs:element name="NumberHealthMaritimeDeclaration" type="xs:string"></xs:element> -->
+								
+				<xs:element name="SignPlace" type="xs:string"></xs:element>	
+				<xs:element name="SignDate" type="xs:string"></xs:element>	
+				<xs:element name="MasterSigned" type="xs:string"></xs:element>
+				
+				<xs:element name="MaritimePortCode" type="xs:string"></xs:element>
+				<xs:element name="LastProvinceCode" type="xs:string"></xs:element>
+				<xs:element name="NextProvinceCode" type="xs:string"></xs:element>
+				<xs:element name="CargoDescription" type="xs:string"></xs:element>
+				<xs:element name="RatedPower" type="xs:string"></xs:element>
+				<xs:element name="SeatingCapacity" type="xs:string"></xs:element>
+				<xs:element name="LyingCapacity" type="xs:string"></xs:element>
+				<xs:element name="LastMaritimePortCode" type="xs:string"></xs:element>
+				<xs:element name="LastPortRegionCode" type="xs:string"></xs:element>
+				<xs:element name="LastPortHarbourCode" type="xs:string"></xs:element>
+				<xs:element name="LastPortWharfCode" type="xs:string"></xs:element>
+				<xs:element name="NextMaritimePortCode" type="xs:string"></xs:element>
+				<xs:element name="NextPortRegionCode" type="xs:string"></xs:element>
+				<xs:element name="NextPortHarbourCode" type="xs:string"></xs:element>
+				<xs:element name="NextPortWharfCode" type="xs:string"></xs:element>
+				
+				<xs:element name="CargoList" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Category" type="xs:string"></xs:element>
+							<xs:element name="Type" type="xs:string"></xs:element>
+							<xs:element name="Name" type="xs:string"></xs:element>
+							<xs:element name="Description" type="xs:string"></xs:element>
+							<xs:element name="Quantity" type="xs:string"></xs:element>
+							<xs:element name="Unit" type="xs:string"></xs:element>							
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>										
+				<!-- End of Lvl1 elements -->
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

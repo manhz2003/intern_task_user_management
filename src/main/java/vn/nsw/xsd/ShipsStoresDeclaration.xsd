@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="ShipsStoresDeclaration">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DocumentName" type="xs:string"></xs:element>
+				<xs:element name="DocumentYear" type="xs:string"></xs:element>
+				<xs:element name="UserCreated" type="xs:string"></xs:element>
+				<xs:element name="isArrival" type="xs:string"></xs:element>
+				<xs:element name="NameOfShip" type="xs:string"></xs:element>
+				<xs:element name="IMONumber" type="xs:string"></xs:element>
+				<xs:element name="Callsign" type="xs:string"></xs:element>
+				<xs:element name="VoyageNumber" type="xs:string"></xs:element>
+				<xs:element name="NationalityOfShip" type="xs:string"></xs:element>
+				<xs:element name="PortOfArrivalCode" type="xs:string"></xs:element>
+				<xs:element name="AnchorageCode" type="xs:string"></xs:element>
+				<xs:element name="DateOfArrival" type="xs:string"></xs:element>
+				<xs:element name="LastPortOfCallCode" type="xs:string"></xs:element>
+				<xs:element name="NumberOfPersonsOnBoat" type="xs:string"></xs:element>
+				<xs:element name="PeriodOfStay" type="xs:string"></xs:element>
+				<xs:element name="PeriodOfStayUnit" type="xs:string"></xs:element>
+				<xs:element name="NameOfMaster" type="xs:string"></xs:element>
+				<xs:element name="SignPlace" type="xs:string"></xs:element>
+				<xs:element name="SignDate" type="xs:string"></xs:element>
+				<xs:element name="MasterSigned" type="xs:string"></xs:element>
+				<xs:element name="ListShipsStores">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ShipsStoreItem" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="ShipsStoreItemCode" type="xs:string"></xs:element>
+										<xs:element name="NameOfArticle" type="xs:string"></xs:element>
+										<xs:element name="Quantity" type="xs:string"></xs:element>
+										<xs:element name="QuantityUnit" type="xs:string"></xs:element>
+										<xs:element name="LocationOnBoat" type="xs:string"></xs:element>
+										<xs:element name="UseInBoat" type="xs:string"></xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="VmaShipCertificateList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="VmaShipCertificate" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="mtgateway" type="xs:string"></xs:element>
+							<xs:element name="MaritimeCode" type="xs:string"></xs:element>
+							<xs:element name="IMONumber" type="xs:string"></xs:element>
+							<xs:element name="CallSign" type="xs:string"></xs:element>
+							<xs:element name="VRCode" type="xs:string"></xs:element>
+							<xs:element name="RegistryNumber" type="xs:string"></xs:element>
+							<xs:element name="CertificateCode" type="xs:string"></xs:element>
+							<xs:element name="CertificateName" type="xs:string"></xs:element>
+							<xs:element name="CertificateOrder" type="xs:string"></xs:element>
+							<xs:element name="CertificateNo" type="xs:string"></xs:element>
+							<xs:element name="Description" type="xs:string"></xs:element>
+							<xs:element name="CertificateIssueDate" type="xs:string"></xs:element>
+							<xs:element name="CertificateExpiredDate" type="xs:string"></xs:element>
+							<xs:element name="ExaminationDate" type="xs:string"></xs:element>
+							<xs:element name="Comment" type="xs:string"></xs:element>
+							<xs:element name="IsExamined" type="xs:string"></xs:element>
+							<xs:element name="mandatory" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

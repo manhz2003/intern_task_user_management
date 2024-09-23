@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Tue Sep 16 2014 08:40:58 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="DmDataItemList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DmDataitem" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DataGroupId" type="xs:string"></xs:element>
+							<xs:element name="Code0" type="xs:string"></xs:element>
+							<xs:element name="Node1" type="xs:string"></xs:element>
+							<xs:element name="Node2" type="xs:string"></xs:element>
+							<xs:element name="Node3" type="xs:string"></xs:element>
+							<xs:element name="Node4" type="xs:string"></xs:element>
+							<xs:element name="Level" type="xs:int"></xs:element>
+							<xs:element name="Name" type="xs:string"></xs:element>
+							<xs:element name="ShortName" type="xs:string"></xs:element>
+							<xs:element name="Description" type="xs:string"></xs:element>
+							<xs:element name="ValidatedFrom" type="xs:string"></xs:element>
+							<xs:element name="ValidatedTo" type="xs:string"></xs:element>
+							<xs:element name="Order" type="xs:int"></xs:element>
+							<xs:element name="Status" type="xs:int"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

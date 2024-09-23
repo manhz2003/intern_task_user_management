@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- XML Schema Generated from XML Document on Mon Sep 15 2014 14:48:55 GMT+0700 (SE Asia Standard Time) -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="ResponseInvoice">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="MaritimeCode" type="xs:string"></xs:element>
+				<xs:element name="PaymentStatus" type="xs:string"></xs:element>	
+				<xs:element name="TransactionDate" type="xs:string"></xs:element>			
+				<xs:element name="TransactionCode" type="xs:string"></xs:element>
+				<xs:element name="Invoice" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="CusCode" type="xs:string"></xs:element>
+										<xs:element name="CusName" type="xs:string"></xs:element>
+										<!-- Đại lý -->
+										<xs:element name="CusAddress" type="xs:string"></xs:element>
+										<xs:element name="CusPhone" type="xs:string"></xs:element>
+										<xs:element name="CusTaxCode" type="xs:string"></xs:element>
+										<xs:element name="CusEmail" type="xs:string"></xs:element>
+										<xs:element name="PaymentMethod" type="xs:string"></xs:element>
+										<!-- Phương thức thanh toán -->
+										<xs:element name="PaymentStatus" type="xs:string"></xs:element>
+										<!-- Trạng thái thanh toán -->
+										<xs:element name="KindOfService" type="xs:string"></xs:element>
+										<!-- Tháng hóa đơn -->
+										<xs:element name="ShipName" type="xs:string"></xs:element>
+										<!-- Tên tàu -->										
+										<xs:element name="ShipFlag" type="xs:string"></xs:element>
+										<!-- Quốc tịch -->
+										<xs:element name="Extra3" type="xs:string"></xs:element>
+										<!-- Hô hiệu -->
+										<xs:element name="ShipOwner" type="xs:string"></xs:element>
+										<!-- Chủ tàu hoặc chủ hàng -->
+										<xs:element name="ArrivalDate" type="xs:string"></xs:element>
+										<!-- Ngày đến -->
+										<xs:element name="DepatureDate" type="xs:string"></xs:element>
+										<!-- Ngày rời -->
+										<xs:element name="ShipGRT" type="xs:string"></xs:element>
+										<!-- GROSS of Tonnage -->
+										<xs:element name="ShipGT" type="xs:string"></xs:element>
+										<!-- DWT -->
+										
+										<xs:element name="ShipLOA" type="xs:string"></xs:element>
+										<!-- Cảng đến -->
+										<xs:element name="Berth" type="xs:string"></xs:element>
+										<!-- Cảng rời -->
+										<xs:element name="Extra2" type="xs:string"></xs:element>
+										<!-- Cảng đến tiếp theo -->
+										<xs:element name="CusBankName" type="xs:string"></xs:element>
+										<!-- Hàng hóa xếp, dỡ -->
+										<xs:element name="ExchangeRate" type="xs:string"></xs:element>
+										<!-- Tỷ giá quy đổi -->
+										<xs:element name="CurrencyUnit" type="xs:string"></xs:element>
+										<!-- Đơn vị tiền tệ -->									
+																				
+										<xs:element name="Products">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Product" maxOccurs="unbounded">																		
+														<xs:complexType>
+															<xs:sequence>												
+																<xs:element name="Code" type="xs:string"></xs:element>
+																<xs:element name="ProdName" type="xs:string"></xs:element>
+																<!-- Các khoản phí -->
+																<xs:element name="ProdUnit" type="xs:string"></xs:element>
+																<xs:element name="ProdQuantity" type="xs:string"></xs:element>
+																<xs:element name="ProdPrice" type="xs:string"></xs:element>
+																<!-- Đơn giá -->
+																<xs:element name="Extra1" type="xs:string"></xs:element>
+																<!-- Số tiền bằng số của đồng Đôla Mỹ USD  -->
+																<xs:element name="Total" type="xs:string"></xs:element>
+																<!-- total Thành tiền bằng số Việt nam đồng-->
+																<xs:element name="Amount" type="xs:string"></xs:element>
+																<!-- Amount Thành tiền bằng số, không sử dụng -->
+																<xs:element name="Remark" type="xs:string"></xs:element>
+																<!-- Ghi chú tính phí, lệ phí -->
+																<xs:element name="VATRate" type="xs:string"></xs:element>
+																<xs:element name="VATAmount" type="xs:string"></xs:element>
+															</xs:sequence>
+														</xs:complexType>	
+													</xs:element>													
+												</xs:sequence>
+											</xs:complexType>	
+										</xs:element>
+										<xs:element name="Total" type="xs:string"></xs:element>
+										<!-- Amount Tổng tiền bằng số, không sử dụng -->
+										<xs:element name="DiscountAmount" type="xs:string"></xs:element>
+										<!-- Tổng tiền chiết khấu bằng số, không sử dụng -->
+										<xs:element name="VATRate" type="xs:string"></xs:element>
+										<!-- Phần trăm thuế GTGT bằng số, không sử dụng -->
+										<xs:element name="VATAmount" type="xs:string"></xs:element>
+										<!-- Tổng tiền thuế GTGT bằng số, không sử dụng -->
+										<xs:element name="Extra" type="xs:string"></xs:element>
+										<!-- Dung tích quy đổi, không sử dụng -->
+										<xs:element name="Extra1" type="xs:string"></xs:element>
+										<!-- Tổng tiền (bằng chữ) của đồng Đôla Mỹ USD  -->
+										<xs:element name="Extra4" type="xs:string"></xs:element>
+										<!-- Số tiền bằng số của đồng Đôla Mỹ USD  -->									
+										<xs:element name="Extra5" type="xs:string"></xs:element>
+										<!-- Số tiền bằng số Việt nam đồng-->
+																				
+										<xs:element name="AmountInWords" type="xs:string"></xs:element>
+										<!-- Tổng tiền (bằng chữ) của Việt nam đồng  -->
+										<xs:element name="ConvertedAmount" type="xs:string"></xs:element>
+										<!-- Tổng tiền quy đổi -->		
+																									
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

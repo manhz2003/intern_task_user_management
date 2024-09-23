@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE routes PUBLIC "-//Liferay//DTD Friendly URL Routes 6.1.0//EN"
+"http://www.liferay.com/dtd/liferay-friendly-url-routes_6_1_0.dtd">
+
+<routes>
+    <route>
+		<pattern>/{actionName}</pattern>
+		<generated-parameter name="javax.portlet.action">{actionName}</generated-parameter>
+    	<ignored-parameter name="p_auth"/>
+		<ignored-parameter name="p_p_id"/>
+		<ignored-parameter name="SESSION_MENU_SELECTED"/>
+		<implicit-parameter name="p_p_lifecycle">1</implicit-parameter>
+		<implicit-parameter name="p_p_state">normal</implicit-parameter>
+		<implicit-parameter name="p_p_mode">view</implicit-parameter>
+    </route>
+    
+	<route>
+		<pattern>/page/{jspPageName}/{DOCUMENT_YEAR}/{PageType}/{MESSAGE_TYPE}/{DOCUMENT_NAME}</pattern>
+
+		<generated-parameter name="jspPage">/html/thutuc/{jspPageName}.jsp</generated-parameter>
+
+		<generated-parameter name="DOCUMENT_YEAR">{DOCUMENT_YEAR}</generated-parameter>	
+		<generated-parameter name="PageType">{PageType}</generated-parameter>	
+		<generated-parameter name="MESSAGE_TYPE">{MESSAGE_TYPE}</generated-parameter>	
+		<generated-parameter name="DOCUMENT_NAME">{DOCUMENT_NAME}</generated-parameter>	
+
+    	<ignored-parameter name="p_auth"/>
+		<ignored-parameter name="p_p_id"/>
+		<ignored-parameter name="REQUEST_CODE"/>	
+		<ignored-parameter name="TIEU_DE_BAN_KHAI"/>
+
+		<implicit-parameter name="p_p_lifecycle">0</implicit-parameter>
+		<implicit-parameter name="p_p_state">normal</implicit-parameter>
+		<implicit-parameter name="p_p_mode">view</implicit-parameter>	
+		
+	</route>
+
+	
+</routes>
